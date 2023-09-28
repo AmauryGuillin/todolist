@@ -1,0 +1,32 @@
+.list-box {
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list .task {
+  align-self: start;
+}
+
+.list .delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  stroke: black;
+}
